@@ -8,3 +8,10 @@ The project's inspiration encompasses two primary aspects. Firstly, it aims to s
 ## Further considerations
 
 Further projects envision involves epxanding beyond the ESRI's environment, recuding reliance on its functionalities, and transitioning towards open-source technologies. This transition would culminate in the dissemination of the project through a easily reachable and user-friendly website. In terms of analysis, the calculations should be shifted away from determining buffer zones based on environmental factors and instead propose them in relation to road infrastructure. This approach would result in more reliable results concerning the proximity of the factors considered in the claculation as it leverages a foundation for human mobility. Adopting this approach would allow for the inclusion of geographical opstacles like rivers and hills in the calculation process.
+
+## How it works
+
+Dependency: 
+- ArcGIS Pro V. 2.9 (the use of other versions might cause incompatibilities with the toolbox)
+
+Download the file [here](https://github.com/Edah94/ArcPy_toolbox_residence_selection/raw/main/src)
