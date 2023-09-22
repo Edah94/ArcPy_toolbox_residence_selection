@@ -11,7 +11,12 @@ Further projects envision involves epxanding beyond the ESRI's environment, recu
 
 ## How it works
 
-Dependency: 
-- ArcGIS Pro V. 2.9 (the use of other versions might cause incompatibilities with the toolbox)
+**Dependency**: 
+- ArcGIS Pro V. 2.9 license(the use of other versions might cause incompatibilities with the toolbox)
 
-Download the file [here](https://github.com/Edah94/ArcPy_toolbox_residence_selection/raw/main/src)
+1. Download the ['src'](https://github.com/Edah94/ArcPy_toolbox_residence_selection/raw/main/src) directory and save it to your preferred folder;
+2. In ArcGIS Pro, navigate to the directory where you saved the 'src' directory. Inside the directory, you will find the **ResidenceSelectionSalzburg.atbx** toolbox;
+3. Open the toolbox and customize the analysis by selecting the factors you want to consider. Assign weights and distances to each factor. Keep in mind that for each factor you include, you'll need to specify a total of five different distance values.
+4. Run the analysis, and wait for a moment as the results are generated and displayed on the map view.
+   - In case the map does not render automatically, make sure that you have a map tab open within the project. If the issue still persists, you can alternatively naviage to the **output.gbd** geodatabase within the **geodatabase** directory and open the **salzburg_buildings_suitability** shapefile within the project.
+   - If you encounter any issues during the analysis, you can review the log for error messages and attempt to resolve the problem before rerunning the analysis.
