@@ -20,4 +20,4 @@ Further projects envision involves epxanding beyond the ESRI's environment, recu
 3. Open the toolbox and customize the analysis by selecting the factors you want to consider. Assign weights and distances to each factor. Keep in mind that for each factor you include, you'll need to specify a total of five different distance values.
 4. Run the analysis, and wait for a moment as the results are generated and displayed on the map view.
    - In case the resulting layer does not render on a map tab automatically, make sure that you have a map tab open within the project. If the issue still persists, you can alternatively naviage to the **output.gbd** geodatabase within the **geodatabase** directory and open the **salzburg_buildings_suitability** layer within the project.
-   - If you encounter any issues during the analysis, you can review the log for error messages and attempt to resolve the problem before rerunning the analysis.
+   - If you encounter any issues during the analysis, you can review the 'View Details' for error messages and attempt to resolve the problem before rerunning the analysis.
