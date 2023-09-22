@@ -14,6 +14,7 @@ Further projects envision involves epxanding beyond the ESRI's environment, recu
 **Dependency**: 
 - ArcGIS Pro V. 2.9 license(the use of other versions might cause incompatibilities with the toolbox)
 
+**Please follow these steps**:
 1. Download the ['src'](https://github.com/Edah94/ArcPy_toolbox_residence_selection/raw/main/src) directory and save it to your preferred folder;
 2. In ArcGIS Pro, navigate to the directory where you saved the 'src' directory. Inside the directory, you will find the **ResidenceSelectionSalzburg.atbx** toolbox;
 3. Open the toolbox and customize the analysis by selecting the factors you want to consider. Assign weights and distances to each factor. Keep in mind that for each factor you include, you'll need to specify a total of five different distance values.
